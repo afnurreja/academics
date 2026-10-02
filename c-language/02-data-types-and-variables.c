@@ -32,5 +32,17 @@ int main() {
     printf("size of a float = %d\n", sizeof(float));
     printf("size of a char = %d\n", sizeof(char));
 
+
+    // Updating variable value
+    int number = 40;
+    printf("number before update %d\n", number);
+    number = 30;
+    printf("number after update %d\n", number);
+
+
+    // const keyword (assign constant value -> can't change)
+    const int hundred = 100;
+
+    
     return 0;
 }
